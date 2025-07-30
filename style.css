@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: url('pic/—Pngtree—abstract\ blue\ technology\ background\ with_15513220.jpg') center center/cover no-repeat fixed;
+  color: white;
+  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  padding: 1.2rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;      
+  background: #23222b;         
+  border-radius: 40px;         
+  padding: 0.5rem 2rem;         
+  width: fit-content;          
+  margin: 2rem auto 0 auto;    
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.12);
+}
+
+.logo {
+  margin-right: 2rem;           
+  font-weight: bold;
+  color: #c084fc;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  color: #a78bfa;              
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #c084fc;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #d9f99d;
+  margin-bottom: 0.3rem;
+}
+
+.hero h2 {
+  font-size: 1rem;
+  color: #d1d1d1;
+  margin-bottom: 0.8rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 1rem;
+  font-size: 0.95rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+button.contact,
+a.resume {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background: linear-gradient(90deg, #7c3aed, #9333ea);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.resume {
+  background: transparent;
+  border: 1px solid #a78bfa;
+}
+
+.about, .skills {
+  padding: 2rem 3rem;
+  text-align: center;
+}
+
+.about h2, .skills h2 {
+  color: #c084fc;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 0.95rem;
+  color: #ffffff;
+}
+
+.skill-lists {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.skill-lists h4 {
+  margin-bottom: 0.5rem;
+  color: #93c5fd;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.tags span {
+  background: #cec8c8;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  border: 1px solid #4b5563;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 2rem auto;
+  position: relative;
+  padding-left: 2rem;
+  border-left: 2px solid #a855f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center the timeline entries */
+  overflow-x: auto;        /* Allow horizontal scroll if needed */
+  gap: 2rem;               /* Space between entries */
+}
+
+.timeline-entry {
+  display: inline-block; 
+  vertical-align: top;
+  min-width: 320px;    
+  max-width: 400px;
+   position: relative;
+  margin-bottom: 3rem;
+  text-align: left;
+  white-space: normal;   
+}
+
+.work-experience {
+  padding: 3rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+}
+
+.futuristic-heading {
+  margin-bottom: 2rem;
+  color: #c084fc;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #0b0b19;
+  color: white;
+}
+
+.footer h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #f0f0f0, #93c5fd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #d1d1d1;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.github {
+  background: #1f2937;
+}
+
+.facebook {
+  background: #1877f2;
+}
+
+.linkedin {
+  background: #0a66c2;
+}
+
+.gmail {
+  background: #db4437;
+}
