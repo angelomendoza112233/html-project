@@ -5,8 +5,12 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: url('pic/—Pngtree—abstract\ blue\ technology\ background\ with_15513220.jpg') center center/cover no-repeat fixed;
+  background: url(pic/—Pngtree—abstract\ blue\ technology\ background\ with_15513220.jpg)center center/cover no-repeat fixed;
   color: white;
   line-height: 1.6;
   font-family: 'Segoe UI', sans-serif;
@@ -102,7 +106,7 @@ button.contact,
 a.resume {
   padding: 0.6rem 1.2rem;
   border: none;
-  background: linear-gradient(90deg, #7c3aed, #9333ea);
+  background: linear-gradient(90deg, #0d0c0e, #9333ea);
   color: rgb(255, 255, 255);
   border-radius: 20px;
   cursor: pointer;
@@ -112,6 +116,24 @@ a.resume {
 a.resume {
   background: transparent;
   border: 1px solid #a78bfa;
+}
+
+.button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background: linear-gradient(90deg, #7c3aed, #9333ea);
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+  margin: 0 0.5rem;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #a78bfa, #7c3aed);
+  color: #fff;
 }
 
 .about, .skills {
@@ -168,9 +190,9 @@ a.resume {
   border-left: 2px solid #a855f7;
   display: flex;
   flex-direction: row;
-  justify-content: center; /* Center the timeline entries */
-  overflow-x: auto;        /* Allow horizontal scroll if needed */
-  gap: 2rem;               /* Space between entries */
+  justify-content: center; 
+  overflow-x: auto;        
+  gap: 2rem;               
 }
 
 .timeline-entry {
@@ -189,7 +211,7 @@ a.resume {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center children horizontally */
+  align-items: center; 
 }
 
 .futuristic-heading {
@@ -249,4 +271,19 @@ a.resume {
 
 .gmail {
   background: #db4437;
+}
+.visible-links {
+  margin-top: 1rem;
+}
+
+.visible-links a {
+  color: #93c5fd;
+  text-decoration: underline;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  word-break: break-word;
+}
+
+.visible-links a:hover {
+  color: #c084fc;
 }
